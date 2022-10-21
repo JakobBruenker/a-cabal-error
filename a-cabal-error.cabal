@@ -58,7 +58,7 @@ test-suite a-cabal-error-test
 
     main-is:          PluginTest.hs
 
-    build-depends:    base >=4.16.0.0 && <5,
+    build-depends:    base >=4.17.0.0 && <5,
                       a-cabal-error,
 
     ghc-options:      -fplugin=APlugin -Wall
